@@ -1,0 +1,14 @@
+begin
+	input(x)
+	x=a+b
+	x=x+1+2*a-3
+	if(x==b) then
+		output(a)
+	else
+		output(b)
+	while(x<=14) do
+	begin
+		x=x+1
+		total=total+x
+	end
+end

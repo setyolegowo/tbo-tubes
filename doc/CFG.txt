@@ -1,0 +1,28 @@
+A -> bDe
+D -> VE | I | VO | VS
+E -> i(H)tI | i(H)tbDe | i(H)tIcI | i(H)tbDecI | i(H)tIcbDe | i(H)tbDecbDe
+H -> JKJ
+I -> L | M | N | VL | VM | VN
+J -> [Operasi +, -, * dengan hirarkinya]
+K -> < | > | <= | >= | = | <>
+L -> W=J
+M -> j(W)
+N -> k(W)
+O -> rDu(H)
+S -> w(H)dI | w(H)dbDe
+V -> { ? }
+W -> [Pemeriksaan Variabel]
+
+[TERMINAL]
+b -> 'begin'
+e -> 'end'
+i -> 'if'
+t -> 'then'
+r -> 'repeat'
+u -> 'until'
+c -> 'else'
+w -> 'while'
+d -> 'do'
+
+j -> 'input'
+k -> 'output'

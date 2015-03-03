@@ -1,0 +1,11 @@
+begin
+	input(x)
+	if (x > 7) then
+		x = 7 + 7
+	else
+	begin
+		repeat
+
+		until (x > 7)
+	end
+end
